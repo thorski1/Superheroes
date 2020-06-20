@@ -30,7 +30,7 @@ background:linear-gradient(135deg, #09203f 0%,#537895 100%);
 
 .hero-card-image {
 	height: 250px;
-	width: 100%;
+	width: 250px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
 		0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-bottom: 5px solid linear-gradient(135deg, #6ce8fd 0%,#0c015b 100%);
