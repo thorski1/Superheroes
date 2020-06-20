@@ -118,6 +118,24 @@
 	color: #ccc;
 }
 
+@media only screen and (max-width: 1200px) {
+		.individual-hero-name {
+	font-size: 30px;
+}
+
+	.individual-hero-info {
+	font-size: 20px;
+}
+
+.individual-hero-info-data {
+	font-size: 16px;
+}
+
+	.individual-hero-powerstat-text {
+	font-size: 20px;
+}
+}
+
 @media only screen and (max-width: 800px) {
 	.individual-hero-img {
 		width: 100%;
@@ -146,8 +164,12 @@
 		inset -60px -81px 70px -43px rgba(0, 0, 0, 0.75);
 }
 
+.individual-hero-img-container {
+	width: 100%;
+}
+
 .individual-hero-img {
-		height: 300px;
+		height: 400px;
 	}
 	.individual-hero-name {
 	font-size: 30px;
@@ -163,6 +185,14 @@
 
 	.individual-hero-powerstat-text {
 	font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 1400px) {
+	.individual-hero-screen {
+	padding: 50px 140px;
+	width: calc(1328px - 480px);
+	margin: 0 auto;
 }
 }
 

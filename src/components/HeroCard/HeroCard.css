@@ -1,6 +1,6 @@
 .hero-card {
 	margin: 20px;
-	box-shadow: 28px 9px 109px -21px rgba(0,0,0,0.71);
+	box-shadow: 3px 15px 16px -8px rgba(0,0,0,0.75);
     padding: 0;
 	width: 250px;
 	height: 100%;
@@ -15,8 +15,14 @@
 }
 
 .hero-card:hover {
-	transform: scale(1.03) translateY(-2px);
+	transform: scale(1.03) translateY(-3px);
+	box-shadow: 3px 15px 59px -8px rgba(0,0,0,0.75);
 	cursor: pointer;
+}
+.hero-card:active {
+	transform: scale(1.01) translateY(-1px);
+	cursor: pointer;
+	box-shadow: 3px 15px 16px -8px rgba(0,0,0,0.75);
 }
 
 .hero-card-name {

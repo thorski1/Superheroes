@@ -72,7 +72,7 @@ function App() {
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
-	}, [screen.status]);
+	}, [screen]);
 
 	return (
 		<DataContext.Provider

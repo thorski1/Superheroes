@@ -30,3 +30,10 @@
 .nav-link:active {
 	transform: translateY(-1px)
 }
+
+@media only screen and (max-width: 800px) { 
+	.navbar-container {
+	width: calc(100vw - 20px);
+	padding: 20px 10px;
+}
+}
