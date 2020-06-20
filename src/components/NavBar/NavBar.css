@@ -1,0 +1,32 @@
+.navbar-container {
+	height: 50px;
+	width: calc(100vw - 100px);
+	background:linear-gradient(135deg, #09203f 0%,#537895 100%);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position: fixed;
+	z-index: 100;
+	padding: 20px 50px;
+
+}
+
+.nav-link {
+	background-color: inherit;
+	border: none;
+	font-size: 40;
+	color: #222;
+	outline: none;
+	transition: all .2s;
+}
+
+.nav-link:hover {
+	cursor: pointer;
+	transform: translateY(-1px) scale(1.01);
+}
+
+.nav-link:active {
+	transform: translateY(-1px)
+}

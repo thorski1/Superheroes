@@ -1,0 +1,17 @@
+.status-bar {
+    width: 650px;
+    height: 60px;
+    border-radius: 30px;
+    /* border: 3px solid #777; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 
+0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    background:linear-gradient(135deg, #E3E3E3 0%,#5D6874 100%);
+}
+
+@media only screen and (max-width: 800px) {
+    .status-bar {
+    width: 50%;
+    height: 20px;
+}
+}

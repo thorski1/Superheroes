@@ -1,0 +1,11 @@
+.category-screen-title {
+    font-size: 45px;
+    color: #333;
+    text-align: center;
+}
+
+.category-screen-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
